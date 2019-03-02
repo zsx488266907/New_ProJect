@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+   android:layout_marginTop="5dp"
+    android:elevation="5dp"
+    android:background="@drawable/shape_item">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_height="99dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"/>
+<LinearLayout
+
+    android:layout_width="0dp"
+    android:layout_weight="3"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv"
+        android:layout_marginTop="10dp"
+        android:text="asdada"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:ellipsize="end"
+        android:lines="3"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/price"
+        android:text="¥：123123"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

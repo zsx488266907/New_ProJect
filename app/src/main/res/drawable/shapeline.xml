@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="line" >
+
+
+
+        <stroke android:width="2dp" android:color="#fff"/>
+        <!--
+              -gradient 渐变背景颜色，sweep为 颜色从红-绿-蓝色的类型 -
+               <gradient android:startColor="#ff00"
+                   android:centerColor="#0000ff"
+                   android:endColor="#0000ff"
+                   android:type="sweep"
+                   />
+
+               -->
+    </shape>
+
+
+
